@@ -9,7 +9,7 @@ A arquitetura de dados para este projeto segue as camadas Bronze, Prata e Ouro d
 2. Camada Prateada: Esta camada inclui processos de limpeza, padronização e normalização de dados para preparar os dados para análise.
 3. Camada de Ouro: Armazena dados prontos para uso comercial, modelados em um esquema em estrela, necessários para geração de relatórios e análises.
 
-#Visão geral do projeto
+# Visão geral do projeto
 
 Este projeto envolve:
 
