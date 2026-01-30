@@ -37,12 +37,11 @@ projeto-sql-data-warehouse/
 ├── datasets/                    # Conjuntos de dados brutos utilizados no projeto (dados de ERP e CRM)
 │
 ├── docs/                        # Documentação do projeto e detalhes da arquitetura
-│   ├── etl.drawio               # O arquivo Draw.io mostra todas as diferentes técnicas e métodos de ETL.
-│   ├── data_architecture.drawio # O arquivo Draw.io mostra a arquitetura do projeto.
-│   ├── data_catalog.md          # Catálogo de conjuntos de dados, incluindo descrições de campos e metadados.
-│   ├── data_flow.drawio         # Arquivo Draw.io para o diagrama de fluxo de dados
-│   ├── data_models.drawio       # Arquivo Draw.io para modelos de dados (esquema em estrela)
-│   └── naming-conventions.md    # Diretrizes consistentes para nomenclatura de tabelas, colunas e arquivos.
+│   ├── ArquiteturaDW.png        # O arquivo Draw.io mostra a arquitetura do projeto.
+│   ├── catalogo_dados.md        # Instruções sobre nomenclatura de tabelas, colunas e arquivos.
+│   ├── Diagrama_fluxo_dados.png # Arquivo Draw.io para o diagrama de fluxo de dados
+│   ├── Modelo_Dados.png         # Arquivo Draw.io para modelos de dados (esquema em estrela)
+│   └── Modelo_Integracao.png    # Arquivo Draw.io com estrutura de integração de como as tabelas se relacionam da camada prata e ouro.
 │
 ├── scripts/                     # Scripts SQL para ETL e transformações
 │   ├── bronze/                  # Scripts para extrair e carregar dados brutos
