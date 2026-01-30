@@ -3,20 +3,20 @@ Construção moderna de um DW (Data Warehouse) com SQL Server, incluindo process
 
 
 A arquitetura de dados para este projeto segue as camadas Bronze, Prata e Ouro da Arquitetura Medallion:
-<img width="761" height="411" alt="Arquitetura Data Warehouse drawio" src="docs/Arquitetura Data Warehouse.png">
+<img width="761" height="411" alt="Arquitetura Data Warehouse drawio" src="docs/ArquiteturaDW.png">
 
 1. Camada Bronze: Armazena os dados brutos tal como estão, provenientes dos sistemas de origem. Os dados são importados de arquivos CSV para um banco de dados SQL Server.
 2. Camada Prateada: Esta camada inclui processos de limpeza, padronização e normalização de dados para preparar os dados para análise.
 3. Camada de Ouro: Armazena dados prontos para uso comercial, modelados em um esquema em estrela, necessários para geração de relatórios e análises.
 
 Diagrama de Fluxo de dados: 
-<img width="761" height="411" alt="Arquitetura Data Warehouse drawio" src="docs/Diagrama_fluxo_dados.drawio.png">
+<img width="761" height="411" alt="Arquitetura Data Warehouse drawio" src="docs/Diagrama_fluxo_dados.png">
 
 Modelagem de dados: 
-<img width="761" height="411" alt="Arquitetura Data Warehouse drawio" src="docs/Modelo_Dados.drawio.png">
+<img width="761" height="411" alt="Arquitetura Data Warehouse drawio" src="docs/Modelo_Dados.png">
 
 Modelo de Integração: 
-<img width="761" height="411" alt="Arquitetura Data Warehouse drawio" src="docs/Modelo_Integracao.drawio.png">
+<img width="761" height="411" alt="Arquitetura Data Warehouse drawio" src="docs/Modelo_Integracao.png">
 
 
 # Visão geral do projeto
