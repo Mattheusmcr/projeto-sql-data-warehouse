@@ -27,6 +27,7 @@ Este projeto envolve:
 2. Pipelines ETL: Extrair, transformar e carregar dados de sistemas de origem para o data warehouse.
 3. Modelagem de Dados: Desenvolver tabelas de fatos e dimensões otimizadas para consultas analíticas.
 4. Análise e Relatórios: Criar relatórios e dashboards baseados em SQL para insights acionáveis.
+Observação: Toda a modelagem foi feita no software Draw.io, uma ferramenta gratuita e open source 
 
 ## Estrutura do Repositório
 
@@ -49,7 +50,7 @@ projeto-sql-data-warehouse/
 │   └── ouro/                    # Scripts para criação de modelos analíticos
 │
 ├── README.md                    # Visão geral do projeto
-
+```
 
 # Sobre mim:
 
